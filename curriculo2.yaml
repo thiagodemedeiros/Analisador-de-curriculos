@@ -1,0 +1,33 @@
+design:
+  theme: engineeringresumes
+  templates:
+    top_note: ''
+
+cv:
+  name: Maria Souza
+  headline: Cientista de Dados
+  location: Rio de Janeiro
+  email: maria@email.com
+
+  sections:
+    experience:
+      - company: Startup ABC
+        position: Data Scientist
+        start_date: 2022
+        end_date: present
+        highlights:
+          - Modelos de ML para previsão de churn
+          - Pipelines em Python
+
+    projects:
+      - name: Sistema de Recomendação
+        description: Modelo com scikit-learn e XGBoost
+
+settings:
+  render_command:
+    dont_generate_pdf: false
+    dont_generate_markdown: True
+    dont_generate_html: True
+    # Sem o latex instalado o typst precisa ficar ativado
+    dont_generate_typst: false
+    dont_generate_png: True
