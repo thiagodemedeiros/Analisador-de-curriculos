@@ -1,0 +1,37 @@
+cv:
+  name: John Doe
+
+  sections:
+    summary:
+      - Software engineer with 10 years of experience in distributed systems.
+
+    education:
+      - institution: MIT
+        area: Computer Science
+        degree: BS
+        start_date: 2012-09
+        end_date: 2016-05
+
+    experience:
+      - company: Acme Corp
+        position: Senior Engineer
+        start_date: 2020-01
+        end_date: present
+        highlights:
+          - Led migration to microservices architecture
+          - Reduced deployment time by 80%
+
+    skills:
+      - label: Languages
+        details: Python, Go, Rust, TypeScript
+      - label: Infrastructure
+        details: Kubernetes, Terraform, AWS
+
+settings:
+  render_command:
+    dont_generate_pdf: false
+    dont_generate_markdown: True
+    dont_generate_html: True
+    # Sem o latex instalado o typst precisa ficar ativado
+    dont_generate_typst: false
+    dont_generate_png: True
